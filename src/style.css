@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  background-color: slateblue;
+  padding-top: 50px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 8rem);
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0px 0px 10px #666;
+  text-wrap: balance;
+}
+
+.hero p {
+  font-size: clamp(2rem, 2.5vw, 8rem);
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0px 0px 10px #666;
+  text-wrap: balance;
+  padding-top: 50px;
+}
+
+.hero i {
+  font-size: clamp(2rem, 2.5vw, 8rem);
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0px 0px 10px #666;
+}
+
+.dg-img {
+  filter: drop-shadow(0 0 20px #fff9);
+  padding-bottom: 50px;
+}
+
+.dg-img:hover {
+  filter: drop-shadow(0 0 40px #fff);
+}
+
+.domain-section {
+  padding: 50px;
+  background-color: #e0e0e0;
+}
